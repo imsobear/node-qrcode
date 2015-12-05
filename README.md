@@ -1,6 +1,6 @@
-# node-qrcode [![Build Status](https://travis-ci.org/imsobear/node-qrcode.svg?branch=master)](https://travis-ci.org/imsobear/node-qrcode) [![Coverage Status](https://coveralls.io/repos/imsobear/node-qrcode/badge.svg?branch=master)](https://coveralls.io/r/imsobear/node-qrcode?branch=master)
+# node-qrcode
 
-> generate qrcode by nodejs.
+> generate qrcode by node.js but not depend on node-canvas.
 
 ## why
 
