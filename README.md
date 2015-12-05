@@ -4,7 +4,7 @@
 
 ## why
 
-Because of the dependency: `qrcode -> node-canvas -> node -> Cairo -> x11`, [qrcode](https://github.com/soldair/node-qrcode) is too hard to use.
+[qrcode](https://github.com/soldair/node-qrcode) is too hard to use, because of the deep dependency: `qrcode -> node-canvas -> node -> Cairo -> x11`.
 
 So the node-qrcode is dependent on browser(webdriver/phantomjs) to draw qrcode canvas, It is very easy to use :)
 

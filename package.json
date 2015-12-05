@@ -1,6 +1,6 @@
 {
   "name": "node-qrcode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "generate qrcode by nodejs but not depend on node-canvas.",
   "main": "index.js",
   "scripts": {
