@@ -1,0 +1,19 @@
+{
+  "name": "node-qrcode",
+  "version": "0.0.1",
+  "description": "generate qrcode by nodejs but not depend on node-canvas.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "qrcode"
+  ],
+  "author": "sobear.me@gmail.com",
+  "repository": "imsobear/node-qrcode",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "get-port": "^2.1.0",
+    "node-browser": "^0.0.1"
+  }
+}
