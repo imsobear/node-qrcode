@@ -4,7 +4,9 @@
 
 ## why
 
-[qrcode](https://github.com/soldair/node-qrcode) is too hard to use, because of the deep dependency: `qrcode -> node-canvas -> node -> Cairo -> x11`.
+Because of the deep dependency, [qrcode](https://github.com/soldair/node-qrcode) is too hard to use.
+
+qrcode's dependency: `qrcode -> node-canvas -> node -> Cairo -> x11`.
 
 So the node-qrcode is dependent on browser(webdriver/phantomjs) to draw qrcode canvas, It is very easy to use :)
 
@@ -13,7 +15,7 @@ So the node-qrcode is dependent on browser(webdriver/phantomjs) to draw qrcode c
 ```
 tnpm i node-qrcode --save
 
-var qrcode = require('../');
+var qrcode = require('node-qrcode');
 
 qrcode({
   text: 'http://weibo.com',
@@ -29,10 +31,10 @@ qrcode({
 
 ### qrcode(option)
 
-- option.text: required, the qrcode content
-- option.size: option, default 150, qrcode size
-- option.qrcodePath: required, save the qrcode png
-- option.browser: option, default phanpmjs, values: chrome/phantomjs, chrome is faster but not support linux
+- `option.text`: required, the qrcode content
+- `option.size`: option, default 150, qrcode size
+- `option.qrcodePath`: required, save the qrcode png
+- `option.browser`: option, default phanpmjs, values: chrome/phantomjs, chrome is faster but not support linux
 
 ## License
 
